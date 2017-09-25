@@ -11,8 +11,8 @@ $view = new View('index.html');
 $view->source('styles.css', 'css');
 $view->source('functions.js');
 
-// Add data to {h} & {h} variables of index.html
-// Agregar datos a las variables {h} y {h} de index.html
+// Add data to {h} & {w} variables of index.html
+// Agregar datos a las variables {h} y {w} de index.html
 $view->add([
     'h' => 'Hello',
     'w' => 'World!'
